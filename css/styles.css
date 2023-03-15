@@ -14,7 +14,7 @@ a {
 	position: fixed;
 	height: 100%;
 	width: 320px;
-	background-color: rgb(0, 145, 255);
+	background-color: #2790c6;
 }
 
 .sidebar h1{
@@ -120,7 +120,7 @@ section{
 	margin-bottom: 20px;
 	margin-left: 25px;
 }
-.sessao-bem-vindo-btn, from imput[type=submit]{
+.sessao-bem-vindo-btn, form input[type=submit]{
 	background-color: #006599;
 	color: #fff;
 	text-decoration: none;
@@ -133,7 +133,7 @@ section{
 	width: 100px;
 	margin-left: 25px;
 }
-.sessao-bem-vindo-btn:hover, from imput[type=submit]:hover{
+.sessao-bem-vindo-btn:hover, form input[type=submit]:hover{
 	background-color: #2790c6;
 }
 /* --------------------------------------------------------------------------------- */
@@ -147,13 +147,109 @@ section{
 #sessao-sobre .descricao{
 	position: absolute;
 	left: 25px;
-	width: calc(100% - 480px);
+	width: calc(100% - 470px);
 }
 /* --------------------------------------------------------------------------------- */
 /* Galeria */
 .banner-galeria{
 	background-position: center;
-	background-repeat: cover;
+	background-size: cover;
 	display: inline-block;
 	height: 200px;
+}
+#sessao-doces1, #sessao-doces2, #sessao-doces3{
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+.doces1-imgs{
+	width: 18.5%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+#img1{
+	background-image: url('../img/galeria1.jpg') ;
+}
+#img2{
+	background-image: url('../img/galeria2.jpg') ;
+}
+#img3{
+	background-image: url('../img/galeria3.jpg') ;
+}
+#img4{
+	background-image: url('../img/galeria4.jpg') ;
+}
+#img5{
+	background-image: url('../img/galeria5.jpg') ;
+	margin-right: 0;
+}
+/* galeria2 */
+.doces2-imgs{
+	width: 31.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+#img6{
+	background-image: url('../img/galeria6.jpg') ;
+}
+#img7{
+	background-image: url('../img/galeria7.jpg') ;
+}
+#img8{
+	background-image: url('../img/galeria8.jpg') ;
+}
+/* galeria 3 */
+/* --------------------------- */
+.doces3-imgs{
+	width: 23.5%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+#img9{
+	background-image: url('../img/galeria9.jpg') ;
+}
+#img10{
+	background-image: url('../img/galeria10.jpg') ;
+}
+#img11{
+	background-image: url('../img/galeria11.jpg') ;
+}
+#img12{
+	background-image: url('../img/galeria12.jpg') ;
+}
+/* contatos */
+#form-contato{
+	width: 500px;
+}
+#form-contato input[type=text], #form-contato input[type=email], #form-contato textarea{
+	display: block;
+	border: 1px solid #006599;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Open sans' ;
+
+}
+form-contato input[type=text]:focus, #form-contato input[type=email]:focus, #form-contato textarea{
+	border-color: #2790c6
+}
+#form-contato textarea{
+	height: 150px;
+}
+#form-contato ::placeholder{
+	color: #2790c6;
+}
+#form-contato input[type=submit]{
+	margin-left: 0;
+	font-size: 16px;
+	width: 180px;
+}
+/* footer */
+footer{
+	height: 100px;
+	padding-top: 150px;
+	color: #006599;
+	text-align: center;
+	font-weight: bold;
+
 }
